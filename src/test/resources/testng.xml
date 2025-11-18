@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="INFO6255 Selenium Test Suite" parallel="false">
+
+    <test name="All Scenarios">
+        <classes>
+            <class name="com.neu.info6255.tests.Scenario1_TranscriptTest"/>
+            <class name="com.neu.info6255.tests.Scenario2_CanvasEventsTest"/>
+            <class name="com.neu.info6255.tests.Scenario3_LibraryReservationTest"/>
+            <class name="com.neu.info6255.tests.Scenario4_DatasetDownloadTest"/>
+            <class name="com.neu.info6255.tests.Scenario5_AcademicCalendarTest"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter"/>
+    </listeners>
+
+</suite>
